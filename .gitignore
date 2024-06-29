@@ -2,5 +2,4 @@
 /env/*
 !/env/.gitkeep
 
-/config.conf
 /__pycache__
