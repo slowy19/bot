@@ -3,3 +3,4 @@
 !/env/.gitkeep
 
 /__pycache__
+/config.conf
