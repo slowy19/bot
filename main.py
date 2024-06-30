@@ -1,5 +1,6 @@
 import configparser
 import telebot
+import random
 
 config = configparser.ConfigParser()
 config.read('config.conf')
@@ -34,6 +35,7 @@ def create_table(N):
             c = list(bin(i)[2:].zfill(N))
             table.append(c)
     
+    random.shuffle(table)
     return table
 
 def create_teams(message):
